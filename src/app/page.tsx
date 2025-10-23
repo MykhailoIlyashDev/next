@@ -19,6 +19,8 @@ export default function Home() {
           <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
             Цей проект створено для тестування CI/CD процесу у Vercel. 
             Кожен push до main гілки автоматично запускає деплой.
+            <br />
+            <span className="text-green-600 font-semibold">✅ Останнє оновлення: {new Date().toLocaleString('uk-UA')}</span>
           </p>
         </div>
         <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
